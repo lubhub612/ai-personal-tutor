@@ -3807,7 +3807,7 @@ const renderQuestionByType = () => {
     <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
       <header className="app-header" style={{ background: subjectsConfig[currentSubject]?.gradient || subjectsConfig.math.gradient }}>
         <div className="header-top">
-          <h1 style={{ marginLeft : 300}}>Personal AI Tutor</h1>
+          <h1 style={{ marginLeft : 350}}>Personal AI Tutor</h1>
           <div className="header-xp">
             {renderXpProgress()}
           </div>
